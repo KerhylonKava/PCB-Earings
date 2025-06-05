@@ -25,6 +25,16 @@ Note for future me: make a hair clip that doubles as a mini game console! Or wit
   -------
 </details>
 
+# Contents
+<details>
+  <summary>Expand</summary>
+  
+  - [June 2nd](#-june-2nd-getting-started-with-research)
+  - [June 4th](#-june-4th-schematic-design)
+
+</details>
+
+
 # June 2nd: Getting Started with Research!
 
 Started out the morning (11 am really) by putting in some non-silver-or-gold plated earrings I made to see if I would react to them. If I don't, I will use the hooks I already have from the set for my earrings, but if I do react, I will have to get 925 sterling silver hooks.
@@ -52,6 +62,34 @@ Inspo below
 ![image](https://github.com/user-attachments/assets/9ba4f308-24f5-4e50-abc4-3e598afefcff)
 These of course use coin batteries, but there are smaller ones if I do end up having to use batteries.
 
-The best batteries seem to be sr626sw button batteries or other similarly small batteries. I need to use something smaller than a coin battery because I want the earrings to be skinny and long, which does not accomidate for 20mm coin batteries. Coin batteries are also just heavier than I would really like (my ears are pretty sensitive).
+The best batteries seem to be SR626SW button batteries or other similarly small batteries. I need to use something smaller than a coin battery because I want the earrings to be skinny and long, which does not accomidate for 20mm coin batteries. Coin batteries are also just heavier than I would really like (my ears are pretty sensitive).
 
 **Total time spent: 3h**
+
+# June 4th: Schematic Design
+
+Started by designing the edge cut for the earrings in Adobe Illustrator. That way I knew what shape the circuit would have to fit in.
+
+I decided to make the earrings a diamond shape. After importing to KiCad I used the measure tool to figure out the rough scale of what I wanted it. The earring has a hole for a jump ring, so I also measured that. It was actually too small (around 1.2mm) to begin with, and the buffer between the hole and the edge of the board was about 0.6mm, which was also far too little. 
+
+After some redisigning, the hole is now 2.1mm and the buffer is 1.2mm. The length is around 40mm and the width is around 24mm.
+
+This is the final result: ![image](https://github.com/user-attachments/assets/eed4c447-8495-4e7f-8304-0f7cf24a93fd)
+
+After that I found a footprint for a 6.8mm battery (the size of a SR626SW) and made sure it fit comfortably in the edge cut. Then I started and finished the schematic for the circut of the first version.
+
+![image](https://github.com/user-attachments/assets/02362bab-b819-4e46-a846-91c99d5172e7)
+
+It has an on/off switch and a three option switch with each output powering an LED. The three LEDs will be green, yellow, and red, which can correspond to how I'm feeling (or something else I guess). When it came to assign footprints, I got stuck on the footprint for the three option switch
+<details>
+  <summary>SW_DP3T Details</summary>
+  
+  Switch, three position, dual pole triple throw, 3 position switch, SP3T
+  Keywords: switch dp3t ON-ON-ON
+  
+  ------
+</details>
+
+Of course, I did not find the correct footprint, but tomorrow is another day...
+
+**Total time spent: 2h**
