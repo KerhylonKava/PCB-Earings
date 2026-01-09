@@ -93,3 +93,40 @@ It has an on/off switch and a three option switch with each output powering an L
 Of course, I did not find the correct footprint, but tomorrow is another day...
 
 **Total time spent: 2h**
+
+# Winter Break; Dec 2025 - Jan 2026: Found suitable switch
+
+Tomorrow was indeed another day... But I did not work on it then, or again for many months :(
+
+I wasn't able to find a "three option switch" (aka, as I know now, a single pole, triple throw switch). Instead, I'll replace it with two single pole, double throw switches. It took a lot of digging, and I had to look through parts catalogs and all that, but I think I found one that will work: the SW Nidec CAS-120A. Also there is an availible footprint to use, so yay! I can actually get to arranging stuff since I have the footprints!
+Well before that, I actually updated the schematic to acommodate the two single pole, double throw switches (and got rid of the triple throw switch), but you know, onward!
+
+Schematic:
+<img width="785" height="543" alt="image" src="https://github.com/user-attachments/assets/7cdccc53-e991-4822-8efd-6777d9424ef8" />
+
+
+
+**Total time spent: 4h**
+
+# Winter Break; Dec 2025 - Jan 2026 cont: Edge Cuts (again) and board layout
+
+It took an embarrassing amount of troubleshooting, but I eventually figured out that you can't have holes in the edge cut you import (see June 4th entry). Instead you have to make a hole once it's imported to KiCad... So yeah, did that, and no more edge cut errors!
+
+After that, I arranged all the footprints on there. I still need to route it though.
+
+PCB:
+
+<img height="500" alt="image" src="https://github.com/user-attachments/assets/4fbaeb57-1c7d-4d01-a6ab-180fb07c779b" />
+
+Front:
+
+<img height="500" alt="image" src="https://github.com/user-attachments/assets/3601b6a0-54b0-45dc-9a2a-85dfcb76da34" />
+
+Back:
+
+<img height="500" alt="image" src="https://github.com/user-attachments/assets/78f65e85-049e-4d3a-83db-5e3179b784f0" />
+
+
+With hope, I will not need to make any more large-scale changes, but I also wonder if I should make the PCB have 2 earrings stuck together on the same thing, since I can fit two in 10cm, so it won't cost more... We shall see. I may also want to add some silkscreen designs.
+
+**Total time spent: 4h**
