@@ -130,3 +130,23 @@ Back:
 With hope, I will not need to make any more large-scale changes, but I also wonder if I should make the PCB have 2 earrings stuck together on the same thing, since I can fit two in 10cm, so it won't cost more... We shall see. I may also want to add some silkscreen designs.
 
 **Total time spent: 4h**
+
+#Jan 24: Routing and Silkscreen
+
+Finished routing! Footprint:
+
+<img height="500" alt="image" src="https://github.com/user-attachments/assets/503108e2-6b51-4a3c-80a4-e7805b9d55e4" />
+
+Used Adobe Illustrator to make the silkscreen and applied it to front and back of earring. I also added a little smiley face to fill space.
+
+Front:
+
+<img height="500" alt="image" src="https://github.com/user-attachments/assets/323821e2-0996-4a6f-a547-5de6bb8834f2" />
+
+Back:
+
+<img width="669" height="1041" alt="image" src="https://github.com/user-attachments/assets/367998f0-c5e2-4e44-aa5f-b17a91affcea" />
+
+For the back, I also edited the silkscreen so it did not overlap with the footprints for the switches and battery holder.
+
+**Total time spent: 1.5h**
